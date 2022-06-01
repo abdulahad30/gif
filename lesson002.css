@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./10.\ Цветы.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.pogo{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 64px;
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.sreach_con{
+    width: 440px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.sreach_con input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.sreach_con i{
+    font-size: 15px;
+    color: #888;
+}
+.wrapper{
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 85px;
+    height: 90px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item p{
+    font-size:15px;
+    color: #fff;
+    margin-top: 12px;
+}
+.item:hover{
+    background-color: #ffffff2b;
+}
+.fa-youtube{
+    color: red;
+    font-size: 20px;
+}
+.fa-chrome{
+    color: red;
+    font-size: 20px;
+}
+
+.fa-telegram{
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.fa-facebook{
+    color: blue;
+    font-size: 20px;
+
+}
